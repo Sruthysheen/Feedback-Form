@@ -1,0 +1,27 @@
+/* Slider thumb for WebKit browsers */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 20px; 
+    height: 20px; 
+    border: 3px solid #0d9488; 
+    background: #99f6e4;
+    border-radius: 50%; 
+}
+
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px; 
+    height: 20px; 
+    border: 3px solid #004d4d; 
+    background: #38b2ac;
+    border-radius: 50%; 
+}
+
+input[type="range"]::-ms-thumb {
+    width: 20px; 
+    height: 20px; 
+    border: 3px solid #004d4d;
+    background: #38b2ac; 
+    border-radius: 50%; 
+}
